@@ -5,6 +5,28 @@ app_description = "Sistema de apoio para grupos escoteiros"
 app_email = "tecnologia@gepim.com.br"
 app_license = "mit"
 
+
+fixtures = [
+    {
+        "dt": "DocType",
+        "filters": [
+            ["module", "in", "Gris"]
+        ]
+    },
+    {
+        "dt": "Custom Field",
+        "filters": [
+            ["module", "in", "Gris"]
+        ]
+    },
+    {
+        "dt": "Property Setter",
+        "filters": [
+            ["module", "in", "Gris"]
+        ]
+    }
+]
+
 # Apps
 # ------------------
 
