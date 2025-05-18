@@ -6,23 +6,24 @@ app_email = "tecnologia@gepim.com.br"
 app_license = "mit"
 
 
+
 fixtures = [
     {
         "dt": "DocType",
         "filters": [
-            ["module", "in", ["Gris"]]
+            ["module", "in", ["Gris", "Gestão"]]
         ]
     },
     {
         "dt": "Custom Field",
         "filters": [
-            ["module", "in", ["Gris"]]
+            ["module", "in", ["Gris", "Gestão"]]
         ]
     },
     {
         "dt": "Property Setter",
         "filters": [
-            ["module", "in", ["Gris"]]
+            ["module", "in", ["Gris", "Gestão"]]
         ]
     }
 ]
