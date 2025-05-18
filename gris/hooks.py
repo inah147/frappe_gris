@@ -10,19 +10,19 @@ fixtures = [
     {
         "dt": "DocType",
         "filters": [
-            ["module", "in", "Gris"]
+            ["module", "in", ["Gris"]]
         ]
     },
     {
         "dt": "Custom Field",
         "filters": [
-            ["module", "in", "Gris"]
+            ["module", "in", ["Gris"]]
         ]
     },
     {
         "dt": "Property Setter",
         "filters": [
-            ["module", "in", "Gris"]
+            ["module", "in", ["Gris"]]
         ]
     }
 ]
